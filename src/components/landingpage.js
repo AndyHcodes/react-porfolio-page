@@ -10,7 +10,7 @@ class LandingPage extends Component {
           <Cell col={12}>
             <div class="circular--portrait">
               <img
-                src="/images/profileTwo.png"
+                src="https://avataaars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Blank&facialHairType=BeardLight&facialHairColor=Blonde&clotheType=BlazerShirt&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
                 alt="profile-pic"
                 className="avatar-img"
               />
