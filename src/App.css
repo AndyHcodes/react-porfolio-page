@@ -33,9 +33,7 @@
   height: 100%;
 }
 
-.project-cards {
-  display: flex;
-  padding: 20px;
+.mdl-layout__content {
   background: #4776e6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
@@ -43,6 +41,11 @@
     #4776e6
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #8e54e9, #4776e6);
+}
+
+.project-cards {
+  display: flex;
+  padding: 20px;
 }
 
 .avatar-img {
@@ -57,9 +60,10 @@
   border-radius: 10px;
 }
 
-.banner-text h1 {
-  font-size: 66px;
-  font-weight: bold;
+.banner-text h2,
+h3 {
+  font-size: 50px;
+
   color: white;
 }
 
@@ -89,13 +93,6 @@
 }
 
 .contact-body {
-  background: #4776e6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #8e54e9,
-    #4776e6
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8e54e9, #4776e6);
   margin: auto;
 
   position: fixed;
@@ -110,12 +107,33 @@
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: white;
-  color: black;
-  border: 2px solid red;
+  color: rgb(48, 26, 95);
   margin-bottom: 20px;
 }
 
-.profile-pic-one {
+.contact-grid h2 {
+  font-family: "Anton" sans-serif;
+  color: white;
+}
+
+.contact-grid p {
+  font-family: "Oxygen" sans-serif;
+  font-weight: "bold";
+  color: white;
+}
+
+.contact-list i {
+  font-size: 45px;
+  padding-right: 5rem;
+  color: white;
+}
+
+.contact-list span {
+  color: white;
+}
+
+.profile-pic-four {
   border-radius: 50%;
 }
+
+/* resume page css */

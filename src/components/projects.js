@@ -25,9 +25,8 @@ class Project extends Component {
             weather-app
           </CardTitle>
           <CardText>
-            This App was built as part of my Manchester Codes Bootcamp. It
-            displays the weather forecast for cities in the UK and can display a
-            more detailed forecast for each day.
+            This App displays the weather forecast for cities in the UK and can
+            display a more detailed forecast for each day.
           </CardText>
           <CardActions border>
             <Button colored>GitHub</Button>
@@ -76,10 +75,9 @@ class Project extends Component {
             surreal-estate
           </CardTitle>
           <CardText>
-            This App was built as part of my Manchester Codes Bootcamp. It has a
-            page that allows you to add a property listing with several criteria
-            including city and to filter by city as well as sorting price
-            descending and ascending.
+            This App is property listings page that allows you to add a property
+            listing with several criteria including city and to filter by city
+            as well as sorting price descending and ascending.
           </CardText>
           <CardActions border>
             <Button colored>GitHub</Button>
