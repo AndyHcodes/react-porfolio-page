@@ -12,7 +12,7 @@ import {
 class Project extends Component {
   render() {
     return (
-      <div className="project-cards">
+      <div className="projects">
         <Card shadow={7} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle
             style={{

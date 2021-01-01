@@ -43,9 +43,13 @@
   background: linear-gradient(to left, #8e54e9, #4776e6);
 }
 
-.project-cards {
+/* landing page */
+
+.projects {
   display: flex;
+  flex-wrap: wrap;
   padding: 20px;
+  padding-top: 40px;
 }
 
 /* landing page */
