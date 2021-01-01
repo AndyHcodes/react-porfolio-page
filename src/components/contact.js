@@ -33,7 +33,7 @@ class Contact extends Component {
                     style={{ fontSize: "25px", fontFamily: "Light 300" }}
                   >
                     <i className="fa fa-address-book" ari-hidden="true" />
-                    <span>28 West Grove, Sale, Manchester M33 3AS</span>
+                    <span>Sale, Manchester</span>
                   </ListItemContent>
                 </ListItem>
               </List>

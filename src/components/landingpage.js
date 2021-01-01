@@ -16,7 +16,7 @@ class LandingPage extends Component {
             </div>
             <div className="banner-text">
               <h3>Andrew Harrison</h3>
-              <h2>Full Stack Web Developer</h2>
+              <h3>Full Stack Web Developer</h3>
               <hr />
               <p>
                 HTML/CSS | Javascript | React | NodeJS | MySQL | MongoDB |
