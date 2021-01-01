@@ -6,28 +6,18 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-        <Grid>
+        <Grid className="about-me">
           <Cell col={12}>
-            <h2 style={{ textAlign: "center", color: "white" }}>About Me</h2>
-            <div style={{ textAlign: "center" }}>
+            <h2>About Me</h2>
+            <div>
               <img
                 className="profile-pic-four"
                 src={Profilepic}
                 alt="profile-pic"
-                style={{ height: "250px", width: "250px" }}
               />
             </div>
 
-            <div
-              style={{
-                textAlign: "center",
-                margin: "20px",
-
-                color: "white",
-                paddingLeft: "2em",
-                paddingRight: "2em",
-              }}
-            >
+            <div>
               <p>
                 A Software Developer, currently completing the Manchester Codes
                 Fast Track Software Developer Bootcamp. With over 16 years of

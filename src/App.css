@@ -113,7 +113,7 @@
 
 .social-links i {
   color: white;
-  font-size: 5em;
+  font-size: 65px;
   padding: 8px;
 }
 
@@ -124,6 +124,7 @@
   }
 }
 
+/* contact page */
 .contact-body {
   margin: auto;
 
@@ -148,6 +149,12 @@
   color: white;
 }
 
+@media (max-width: 600px) {
+  .contact-grid h2 {
+    font-size: 28px;
+  }
+}
+
 .contact-grid p {
   font-family: "Oxygen" sans-serif;
   font-weight: "bold";
@@ -160,12 +167,73 @@
   color: white;
 }
 
+@media (max-width: 600px) {
+  .contact-grid i {
+    font-size: 20px;
+    padding-right: 1rem;
+  }
+}
+
 .contact-list span {
   color: white;
 }
 
+@media (max-width: 600px) {
+  .contact-grid span {
+    font-size: 18px;
+  }
+}
+
 .profile-pic-four {
   border-radius: 50%;
+}
+
+/* about me */
+
+.about-me {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .about-me h2 {
+    font-size: 25px;
+  }
+}
+
+.about-me p {
+  text-align: center;
+  margin: 20px;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .about-me {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-me p {
+    font-size: 11px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}
+
+.profile-pic-four {
+  height: 250px;
+  width: 250px;
+}
+
+@media (max-width: 600px) {
+  .profile-pic-four {
+    height: 150px;
+    width: 150px;
+  }
 }
 
 /* resume page css */
