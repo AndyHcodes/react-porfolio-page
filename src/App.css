@@ -43,8 +43,6 @@
   background: linear-gradient(to left, #8e54e9, #4776e6);
 }
 
-/* landing page */
-
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -81,11 +79,10 @@
   }
 }
 
-@media (max-width: 600px) {
-  .banner-text p {
-    font-size: 5px;
+@media (max-width: 350px) {
+  .banner-text h3 {
+    font-size: 17px;
     margin: 10px;
-    color: black;
   }
 }
 
@@ -125,6 +122,13 @@
   .social-links i {
     font-size: 1em;
     padding: 3px;
+  }
+}
+
+@media (max-width: 350px) {
+  .social-links i {
+    font-size: 1em;
+    padding-right: 3px;
   }
 }
 
@@ -178,6 +182,13 @@
   }
 }
 
+@media (max-width: 350px) {
+  .contact-grid i {
+    font-size: 16px;
+    padding-right: 1rem;
+  }
+}
+
 .contact-list span {
   color: white;
 }
@@ -185,6 +196,12 @@
 @media (max-width: 600px) {
   .contact-grid span {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  .contact-grid span {
+    font-size: 15px;
   }
 }
 

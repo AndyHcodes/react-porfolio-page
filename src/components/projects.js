@@ -53,16 +53,16 @@ class Project extends Component {
           <CardText>
             <h4>tech-test</h4>
             <hr />
-            This App was built as part of my Manchester Codes Bootcamp. This
-            project was to simulate a standard tech test. The app has a search
-            function that sends a request to Nasa for a specific image then
-            displays all image linked to the keyword.
+            This App was built as part of my Manchester Codes Bootcamp was to
+            simulate a standard tech test. The app has a search function that
+            sends a request to Nasa for a specific image then displays all
+            images linked to the keyword.
           </CardText>
           <CardActions border>
             <a href="https://github.com/AndyHcodes/tech-test">
               <Button colored>GitHub</Button>
             </a>
-            <a href="https://reverent-lalande-2a940c.netlify.app/">
+            <a href="https://tech-test-three.vercel.app/">
               <Button colored>Live Page</Button>
             </a>
           </CardActions>

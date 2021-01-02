@@ -24,21 +24,21 @@ class LandingPage extends Component {
               </p>
               <div className="social-links">
                 <a
-                  href="http://google.com"
+                  href="https://github.com/AndyHcodes"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
                 <a
-                  href="http://google.com"
+                  href="https://twitter.com/home"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-twitter-square" aria-hidden="true" />
                 </a>
                 <a
-                  href="http://google.com"
+                  href="https://www.instagram.com/andyharrison440/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
