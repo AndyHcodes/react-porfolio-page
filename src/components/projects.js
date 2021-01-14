@@ -53,10 +53,10 @@ class Project extends Component {
           <CardText>
             <h4>tech-test</h4>
             <hr />
-            This App was built as part of my Manchester Codes Bootcamp was to
-            simulate a standard tech test. The app has a search function that
-            sends a request to Nasa for a specific image then displays all
-            images linked to the keyword.
+            This App was built as part of my Manchester Codes Bootcamp and was
+            designed to simulate a standard tech test. The app has a search
+            function that sends a request to Nasa for a specific image that then
+            displays all images linked to the search word.
           </CardText>
           <CardActions border>
             <a href="https://github.com/AndyHcodes/tech-test">
@@ -84,8 +84,8 @@ class Project extends Component {
             <h4>surreal-estate</h4>
             <hr />
             This App is property listings page that allows you to add a property
-            listing with several criteria including city and to filter by city
-            as well as sorting price descending and ascending.
+            listing with several criteria including city and price. You can
+            filter by city as well as sorting price descending and ascending.
           </CardText>
           <CardActions border>
             <a href="https://github.com/AndyHcodes/surreal-estate">
