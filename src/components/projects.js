@@ -81,11 +81,11 @@ class Project extends Component {
             }}
           ></CardTitle>
           <CardText>
-            <h4>surreal-estate</h4>
+            <h4>Last Person Standing</h4>
             <hr />A joint collaboration with two other Manchester Codes
             students. This is a football selector game that allows you to
             register or login and select a team you think will win. The data is
-            stored on MongoDB and live scores and fixture aer fetched from an
+            stored on MongoDB and live scores and fixture are fetched from an
             API.
           </CardText>
           <CardActions border>
