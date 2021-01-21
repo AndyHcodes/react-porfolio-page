@@ -82,16 +82,19 @@ class Project extends Component {
           ></CardTitle>
           <CardText>
             <h4>surreal-estate</h4>
-            <hr />
-            This App is property listings page that allows you to add a property
-            listing with several criteria including city and price. You can
-            filter by city as well as sorting price descending and ascending.
+            <hr />A joint collaboration with two other Manchester Codes
+            students. This is a football selector game that allows you to
+            register or login and select a team you think will win. The data is
+            stored on MongoDB and live scores and fixture aer fetched from an
+            API.
           </CardText>
           <CardActions border>
-            <a href="https://github.com/AndyHcodes/surreal-estate">
+            <a href="https://github.com/JackRandom/last-person-standing">
               <Button colored>GitHub</Button>
             </a>
-            <Button colored>Live Page</Button>
+            <a href="https://last-person-standing-git-master.jackrandom1.vercel.app/">
+              <Button colored>Live Page</Button>
+            </a>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
             <IconButton name="share" />
