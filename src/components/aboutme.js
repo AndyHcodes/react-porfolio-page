@@ -19,7 +19,7 @@ class AboutMe extends Component {
 
             <div>
               <p>
-                A Software Developer, currently completing the Manchester Codes
+                A Software Developer, recently completed the Manchester Codes
                 Fast Track Software Developer Bootcamp. With over 16 years of
                 experience in the banking sector, I am now seeking a role in
                 Software Development, bringing with me a wealth of skills and
@@ -33,9 +33,9 @@ class AboutMe extends Component {
                 as music, films and books. When I am not spending time with my
                 very lively two year old daughter, I am generally on my bike or
                 attending a sporting event or gig. I love outdoor adventures
-                having cycled across Italy and kayaked the Calodonian canal. I
-                spend the rest of my time with friends and family socialising,
-                reading or watching films.
+                having cycled across Italy and kayaked the Caledonian canal. I
+                also love to travel having visited New York, Boston, Toronto,
+                Montreal, Brisbane and Hong Kong in recent years.
               </p>
             </div>
           </Cell>
