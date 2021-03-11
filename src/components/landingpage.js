@@ -7,13 +7,6 @@ class LandingPage extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <div className="circular--portrait">
-              <img
-                src="https://avataaars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Blank&facialHairType=BeardLight&facialHairColor=Blonde&clotheType=BlazerShirt&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
-                alt="profile-pic"
-                className="avatar-img"
-              />
-            </div>
             <div className="banner-text">
               <h3>Andrew Harrison</h3>
               <h3>Full Stack Web Developer</h3>
