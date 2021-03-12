@@ -1,4 +1,8 @@
 .landing-grid {
+  background-image: url("../src/assets/mskl.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  text-align: center;
+  position: fixed;
   top: 60px;
   left: 0;
   width: 100%;
@@ -6,10 +10,13 @@
 }
 
 .mdl-layout__content {
-  background-image: url("../src/assets/mskl.jpg");
-  background-size: cover;
-  text-align: center;
-  position: fixed;
+  background: #4776e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #8e54e9,
+    #4776e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8e54e9, #4776e6);
 }
 
 .projects {
@@ -42,9 +49,6 @@
 }
 
 @media (max-width: 600px) {
-  .banner-text {
-    padding-top: 50px;
-  }
   .banner-text h3 {
     font-size: 20px;
     margin: 10px;
@@ -92,21 +96,16 @@
 
 @media (max-width: 600px) {
   .social-links i {
-    font-size: 2em;
+    font-size: 1em;
     padding: 3px;
   }
 }
 
 @media (max-width: 350px) {
   .social-links i {
-    font-size: 1em;
+    font-size: 2em;
     padding-right: 3px;
   }
-}
-
-.aboutme_text {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 10px;
 }
 
 /* contact page */
@@ -125,8 +124,8 @@
   justify-content: center;
   width: 80%;
   height: 550px;
+  color: rgb(48, 26, 95);
   margin-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .contact-grid h2 {
@@ -170,12 +169,6 @@
   color: white;
 }
 
-@media (max-width: 1000px) {
-  .contact-grid span {
-    font-size: 20px;
-  }
-}
-
 @media (max-width: 600px) {
   .contact-grid span {
     font-size: 18px;
@@ -190,7 +183,6 @@
 
 .profile-pic-four {
   border-radius: 50%;
-  padding-bottom: 10px;
 }
 
 /* about me */
