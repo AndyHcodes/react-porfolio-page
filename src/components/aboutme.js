@@ -17,7 +17,7 @@ class AboutMe extends Component {
               />
             </div>
 
-            <div>
+            <div className="aboutme_text">
               <p>
                 A Software Developer, recently completed the Manchester Codes
                 Fast Track Software Developer Bootcamp. With over 16 years of
