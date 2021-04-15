@@ -46,6 +46,7 @@
   border-radius: 10px;
   font-size: px;
   color: white;
+  padding-top: 50px;
 }
 
 @media (max-width: 600px) {
@@ -84,7 +85,7 @@
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 20%;
   margin: auto;
 }
 
@@ -96,15 +97,15 @@
 
 @media (max-width: 600px) {
   .social-links i {
-    font-size: 1em;
-    padding: 3px;
+    font-size: 2em;
+    padding: 4px;
   }
 }
 
 @media (max-width: 350px) {
   .social-links i {
     font-size: 2em;
-    padding-right: 3px;
+    padding-right: 4px;
   }
 }
 

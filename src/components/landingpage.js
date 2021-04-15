@@ -30,13 +30,6 @@ class LandingPage extends Component {
                 >
                   <i className="fa fa-twitter-square" aria-hidden="true" />
                 </a>
-                <a
-                  href="https://www.instagram.com/andyharrison440/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa fa-instagram" aria-hidden="true" />
-                </a>
               </div>
             </div>
           </Cell>
